@@ -1,0 +1,194 @@
+body
+{
+	background-color: #333333;
+	background-image: url('../bg_body.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+#content
+{
+	width: 1200px;
+	margin: 10px auto;
+	background-color: #303033;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 5px #4D5A6B;
+}
+
+#header
+{
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid #858168;
+	border-radius: 10px;
+	background-image: url('../banniere.jpg');
+	background-repeat: no-repeat;
+}
+
+#menu
+{
+	background-color: #126C81;
+	width: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid #167990;
+	border-radius: 5px;
+}
+
+#menu h2
+{
+	margin: -2px 0 -12px 0;
+	text-align: center;
+	background-color: #0E5566;
+	padding: 3px 0;
+	border-top: 2px solid rgb(8, 52, 63);;
+}
+
+#menu hr
+{
+	margin: 5px 0 5px 0;
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#menu a:hover
+{
+	text-decoration: underline;
+}
+
+#title
+{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#photos
+{
+	float: right;
+	width: 1050px;
+}
+
+#photos a
+{
+	display: inline-block;
+	height: 100%;
+}
+
+#photos img
+{
+	box-shadow: 0px 0px 15px -2px #000000;
+	max-width: 240px;
+	max-height: 240px;
+	vertical-align: middle;
+}
+
+#photos img:hover
+{
+	box-shadow: 0px 0px 15px -2px #888;
+}
+
+#photos hr
+{
+	width: 95%;
+	margin-left: 0px;
+}
+
+#footer
+{
+	width: 1200px;
+	margin: 20px auto;
+	color: #DDD;
+	text-align: center;
+}
+
+#footer a
+{
+	text-decoration: none;
+	color: #126C81;
+}
+
+#photo_finish 
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#photo_finish img
+{
+	box-shadow: none !important;
+}
+
+#date
+{
+	background-color: #1B697D;
+	border: 2px solid rgb(8, 52, 63);
+	padding-bottom: 5px;
+	margin: 20px 0;
+}
+
+#date h1
+{
+	padding: 0 0 0 10px;
+	margin: 0 0 -34px 0;
+	background-color: rgb(10, 76, 92);
+}
+
+#date a 
+{
+	padding-left: 5px;
+}
+
+#event
+{
+	width: 250px;
+	height: 240px;
+	margin: 45px;
+	background-image: url("../bg_event.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	border: 2px solid black;
+	border-radius: 5px;
+	float: left;
+}
+
+#event p
+{
+	background-color: rgba(255, 255, 255, 0.6);
+	color: rgb(14, 85, 102);
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#link_dl
+{
+	text-decoration: underline;
+	color : white;
+}
+
+#photobox
+{
+	float: left;
+	height: 260px;
+	width: 240px;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+}
+
+.middle
+{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
