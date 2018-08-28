@@ -4,6 +4,7 @@ The Simple Photos Manager is made to share your photos easily and without databa
 The code is very light and relies on the FancyBox library.
 
 The internal structure is the following:
+```
 ├───css
 ├───fancybox
 │   ├───dist
@@ -15,6 +16,7 @@ The internal structure is the following:
     └───<level 1>
         └───<level 2>
             └───<level 3>
+```
 
 The following is an example of how I use the levels:
 - the level 1 is made for a specific year
